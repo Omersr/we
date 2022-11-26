@@ -1,0 +1,8 @@
+--start react ---
+npx create-react-app
+cd frontend
+npm start
+
+-- start git --
+move gitignore to the outside folder
+in .gitignore remove both / from node modules and build
