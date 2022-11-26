@@ -17,3 +17,27 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+
+.products {
+  display: flex;
+  /* pushes the items down if there is no space */
+  flex-wrap: wrap;
+}
+
+main {
+  padding: 1rem;
+}
+
+.product {
+  border: 1px teal solid;
+  margin: 1rem;
+  justify-content: center;
+}
+
+.product-info {
+  padding: 1rem;
+}
+
+.product img {
+  width: 100%;
+}
