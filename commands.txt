@@ -26,3 +26,20 @@ then press sync changes
 -- add routing --
 npm i react-router-dom
 
+-- create a node.js project --
+npm init and press enter all the questions, it will create a package.json file
+in the file under name write "type": "module",
+npm install express #<- installing express server in node.js project
+
+-- What is nodemon --
+nodemon makes it easier to write the backend of the server
+since you don't need to shut down and open up everything all the time
+
+-- How to use nodemon --
+npm install nodemon --save-dev
+in package.json write in scripts the following
+"start": "nodemon server.js"
+since we use nodemon we now start the project at npm start
+
+
+
