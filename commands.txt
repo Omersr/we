@@ -4,5 +4,20 @@ cd frontend
 npm start
 
 -- start git --
+
 move gitignore to the outside folder
 in .gitignore remove both / from node modules and build
+press on the Source Control button
+initialize repository
+select the web development folder
+Write a name for the commit and press on the V
+then press publish branch
+sign in to github
+after that you can publish public or private, press on one of them
+
+--update git ---
+Press on Source Control button
+name the commit
+and press the commit button
+then press sync changes
+
