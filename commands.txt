@@ -1,6 +1,8 @@
---start react ---
+-- start react ---
 npx create-react-app
 cd frontend
+
+-- start the project --
 npm start
 
 -- start git --
@@ -20,4 +22,7 @@ Press on Source Control button
 name the commit
 and press the commit button
 then press sync changes
+
+-- add routing --
+npm i react-router-dom
 
