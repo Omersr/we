@@ -6,7 +6,6 @@ cd frontend
 npm start
 
 -- start git --
-
 move gitignore to the outside folder
 in .gitignore remove both / from node modules and build
 press on the Source Control button
@@ -41,5 +40,11 @@ in package.json write in scripts the following
 "start": "nodemon server.js"
 since we use nodemon we now start the project at npm start
 
+-- How to work around proxy --
+Here is a workaround. Delete "proxy": "http://localhost:5000". 
+Install package http-proxy-middleware with command npm install http-proxy-middleware --save. 
+Create a file setupProxy.js  inside your src folder or the root of your folder. (example in frontend folder)
 
+-- install axios --
+npm install axios
 
